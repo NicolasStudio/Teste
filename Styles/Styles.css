@@ -1,0 +1,1241 @@
+@media(max-width: 1920px){
+
+  @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: none;
+    font-family: 'Tenor Sans', sans-serif;
+  }
+
+  /* INICIO */
+  .navbar{
+    display: contents;
+    position: fixed;
+  }
+
+  .navbarMenu{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #314c53;
+    box-shadow: 0 0.2rem 0.5rem #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .opcoes a {
+    display: block;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 26px 30px;
+    text-decoration: none;
+  }
+
+  .opcoes a:hover {
+    background-color: #24373b;
+    transition-duration: 1s;
+  }
+
+  .nomeMenu a{
+    font-size: 30px;
+    position: fixed;
+    color: white;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+  }
+
+  .boxImagemInicio{
+    border: 4px solid #24373b;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 0.5rem #333;
+    width: 16%;
+    margin-top: 4%;
+    margin-left: 42%;
+    height: 30%;
+  }
+
+  .boxImagemInicio:hover{
+    transition: 100ms;
+    box-shadow: 0 0.2rem 0.5rem orange;
+  }
+
+  .imgInicio{
+    width: 100%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  .boxInicio{
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 60%;
+    height: 40%;
+  }
+
+  .titleInicio{
+    font-size: clamp(18px, 4vw, 32px);
+    font-weight: 600;
+  }
+
+  .textInicio{
+    text-align: justify;
+    font-size: clamp(18px, 4vw, 20px);
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #24373b;
+  }
+
+  /* SOBRE */
+
+  .boxSobre{
+    margin-top: 2% ;
+    margin-left:2% ;
+    margin-right:2% ;
+    display: flex;
+  }
+
+  .boxRedes{
+    margin-top: 4%;
+    width: 45%;
+    text-align: center;
+  }
+
+  .boxImgRede{
+    margin-top: 1%;
+    text-decoration: none;
+  }
+
+  .boxImgRede a{
+    text-decoration: none;
+  }
+
+  .redeImg{
+    width: 12%;
+    padding: 2%;
+  }
+
+  .redeImg:hover{
+    opacity: 0.5;
+  }
+
+  .boxSobre2{
+    width: 45%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .textSobre, .calculoIdade{
+    text-align: center;
+    font-size: clamp(18px, 4vw, 20px);
+    font-weight: 600;
+    margin-bottom: 4%;
+  }
+
+  .textSobre2{
+    margin-top: 4%;
+    text-align: justify;
+    font-size: clamp(18px, 4vw, 20px);
+    font-weight: 600;
+    margin-bottom: 1%;
+  }
+
+  .imgConstrucao{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 40%;
+  }
+
+  /* HABILIDADES*/
+
+  .boxhab1{
+    border-bottom: 2px solid #24373b;
+    padding: 1%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -1%;
+  }
+
+  .titleHab{
+    font-size: clamp(18px, 4vw, 32px);
+    font-weight: 600;
+    margin-bottom:2%;
+  }
+
+  .textHab1{
+    text-align: center;
+    font-size: clamp(18px, 4vw, 20px);
+    font-weight: 600;
+  }
+
+  .titleHab2{
+    font-size: clamp(18px, 4vw, 32px);
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+
+  .boxEtapaMaster{
+    margin: 3%;
+    width: 90%;
+  }
+
+  .imgConstrucao2{
+    width: 16%;
+    margin-left: 43.5%;
+  }
+
+  .boxEtapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxEtapa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .todas{
+    width: max-content;
+    padding: 0.5% 1.5%;
+    border: 2px solid #24373b;
+    border-radius: 40px;
+    font-size: clamp(12px, 4vw, 16px);
+    box-shadow: 0 0.2rem 0.5rem orange;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #24373b;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .todas:hover{
+    transition: 100ms;
+    background-color: #314c53;
+    box-shadow: none;
+  }
+
+  .ling1, .ling2, .ling3, .ling4, .ling5{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    cursor: pointer;
+  }
+
+  .ling6, .ling7, .ling8, .ling8, .ling9, .ling10{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+    cursor: pointer;
+  }
+
+  .todas:active{
+    box-shadow: inset -4px 4px 0 #172224;
+    font-size: 1rem;
+  }
+
+  /*MENSAGEM*/
+
+  .spanMsg{
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 15% 20%; /* Posso por em pixel ou em fração*/ 
+    gap: 15px;
+  }
+
+  .mensagem1, .mensagem2, .mensagem3, .mensagem4, .mensagem5, .mensagem6, .mensagem7, .mensagem8, .mensagem9, .mensagem10{
+    border: 4px solid #111;
+    background-color: #bbdec6;
+    width: auto;
+    margin-left: 2%;
+    box-shadow: 0 0.2rem 0.5rem orange;
+    display: none;
+  }
+
+  .msgText{
+    font-size: clamp(12px, 4vw, 18px);
+    font-weight: 600;
+    color: #111;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  /* PROJETOS - GALERIA */
+
+  .boxGallery{
+    width: 96%;
+    height: 1200px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    margin-bottom: 40%;
+  }
+
+  .boxMaster{
+    padding-top: 4%;
+  }
+
+  hr{
+    border: 3px  #111 solid;
+    box-shadow: 0 0.2rem 0.5rem orange;
+  }
+
+  .imgGallery1{
+    width: 100%;
+    border: #172224 solid 3px;
+  }
+
+  .boxClick1, .boxClick2, .boxClick3, .boxClick4, .boxClick5, .boxClick6, .boxClick7, .boxClick8, .boxClick9, .boxClick10, .boxClick11,
+  .boxClick12{
+    width: 16%;
+    margin-left: 6%;
+    position: absolute;
+    border: 4px #314c53 solid;
+    box-shadow:  -4px 6px 0 #24373b;
+    border-radius: 2%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .boxClick1{
+    left: 5%;
+  }
+
+  .boxClick2{
+    left: 25%;
+  }
+
+  .boxClick3{
+    left: 45%;
+  }
+
+  .boxClick4{
+    left: 65%;
+  }
+
+  .boxClick4{
+    left: 65%;
+  }
+
+  .boxClick5{
+    left: 5%;
+    margin-top: 30%;
+  }
+
+  .boxClick6{
+    left: 25%;
+    margin-top: 30%;
+  }
+
+  .boxClick7{
+    left: 45%;
+    margin-top: 30%;
+  }
+
+  .boxClick8{
+    left: 65%;
+    margin-top: 30%;
+  }
+
+  .boxClick9{
+    left: 5%;
+    margin-top: 60%;
+  }
+
+  .boxClick10{
+    left: 25%;
+    margin-top: 60%;
+  }
+
+  .boxClick11{
+    left: 45%;
+    margin-top: 60%;
+  }
+
+  .boxClick12{
+    left: 65%;
+    margin-top: 60%;
+  }
+
+  .imgClick{
+    width: 100%;
+    padding: 1%;
+    border-radius: 2%;
+  }
+
+  .textclick{
+    font-size: clamp(12px, 4vw, 16px);
+    font-weight: 600;
+    background-color: #fff;
+    border-top: 4px solid #314c53;
+    width: 100%;
+  }
+
+  .textApresentacao{
+    font-size: clamp(12px, 4vw, 16px);
+    margin-top: 3%;
+    font-weight: 600;
+    background-color: #fff;
+    border: 2px solid #222;
+  }
+
+  /* Slideshow container */
+  .slideshow-container1, .slideshow-container2, .slideshow-container3, .slideshow-container4, .slideshow-container5,
+  .slideshow-container6, .slideshow-container7, .slideshow-container8, .slideshow-container9, .slideshow-container10, 
+  .slideshow-container11, .slideshow-container12{
+    position: relative;
+    padding: 1%;
+    width: 100%;
+    height: 75%;
+    margin-right: 80%;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .slideshow-container1{
+    display: none;
+  }
+
+  .slideshow-container2{
+    display: none;
+  }
+
+  .slideshow-container3{
+    display: none;
+  }
+
+  .slideshow-container4{
+    display: none;
+  }
+
+  .slideshow-container5{
+    display: none;
+  }
+
+  .slideshow-container6{
+    display: none;
+  }
+
+  .slideshow-container7{
+    display: none;
+  }
+
+  .slideshow-container8{
+    display: none;
+  }
+
+  .slideshow-container9{
+    display: none;
+  }
+
+  .slideshow-container10{
+    display: none;
+  }
+
+  .slideshow-container11{
+    display: none;
+  }
+
+  .slideshow-container12{
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 1%;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, 
+  .mySlides12{
+    cursor: pointer;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  .lightBox{
+    display: none;
+    position: absolute;
+    width: 92%;
+    height: 108%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .apresentacaoImg{
+    display: block;
+    position: absolute;
+    margin: 1%;
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    height: 80%;
+    background-color: #fff;
+  }
+
+  .close{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #172224;
+    color: #fff;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 600;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: 1%;
+    cursor: pointer;
+  }
+
+  .close:hover{
+    background-color: red;
+  }
+
+  /*RODAPE - CONTATOS*/
+
+  footer{
+    background-color: #7a979d;
+  }
+
+  .titleRodape{
+    padding: 2%;
+    font-size: clamp(12px, 4vw, 30px);
+    font-weight: 600;
+    text-align: center;
+    color: #111;
+  }
+
+  .txtRodape{
+    text-align: center;
+    text-indent: 2em;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 400;
+    color: #111;
+    padding-bottom: 1%;
+  }
+
+  .txtRodapeCont{
+    text-align: center;
+    text-indent: 2em;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 400;
+    color: #111;
+    padding-bottom: 1%;
+  }
+
+  .txtRodapeCont:hover{
+    opacity: 0.5;
+  }
+
+  .boxContato a{
+    text-decoration: none;
+  }
+
+  .boxRodapeImg{
+    width: 40%;
+    padding: 1%;
+    margin-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    text-decoration: none;
+  }
+
+  .boxRodapeImg:hover{
+    opacity: 0.8;
+  }
+
+  .boxRodapeImg a{
+    text-decoration: none;
+  }
+}
+
+
+.burguer, .inicio__mobile, .burguer__Link, .opcoes2{
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+  @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+  .burguer {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    box-shadow: 0 0.2rem 0.5rem #333;
+    background-color: transparent;
+  }
+
+  .inicio__mobile{
+      width: 100%;
+      top: 10%;
+  }
+
+  .boxBurguer{
+      width: 100%;
+      top: 0%;
+      background-color: #b9d5d1;
+  }
+
+  .burguer__Link, .inicio__mobile.active, .opcoes2, .opcoes2 a{
+    color: #111;
+    text-decoration: none;
+    background-color: #314c53;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 500;
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    top: 98%;
+    left: 10%;
+    text-align: center;
+    padding: 0.5rem;
+    color: #ffff;
+}
+
+
+  /* ***** */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: none;
+    font-family: 'Tenor Sans', sans-serif;
+  }
+
+  /* INICIO */
+  .navbar{
+    display: none;
+    position: fixed;
+  }
+
+  .navbarMenu{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #314c53;
+    box-shadow: 0 0.2rem 0.5rem #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .opcoes a {
+    display: block;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 26px 30px;
+    text-decoration: none;
+  }
+
+  .opcoes a:hover {
+    background-color: #24373b;
+    transition-duration: 1s;
+  }
+
+  .nomeMenu a{
+    font-size: 30px;
+    position: fixed;
+    color: white;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+  }
+
+  .boxImagemInicio{
+    border: 4px solid #24373b;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 0.5rem #333;
+    width: 30%;
+    margin-top: 4%;
+    margin-left: 35%;
+    height: 30%;
+  }
+
+  .imgInicio{
+    width: 100%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  .boxInicio{
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 90%;
+    height: 40%;
+  }
+
+  .titleInicio{
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 600;
+  }
+
+  .textInicio{
+    text-align: justify;
+    font-size: clamp(12px, 4vw, 16px);
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #24373b;
+  }
+
+  /* SOBRE */
+
+  .boxSobre{
+    margin-top: 2% ;
+    margin-left:2% ;
+    margin-right:2% ;
+    display: flex;
+  }
+
+  .boxRedes{
+    margin-top: 4%;
+    width: 45%;
+    text-align: center;
+  }
+
+  .boxImgRede{
+    margin-top: 1%;
+    text-decoration: none;
+  }
+
+  .boxImgRede a{
+    text-decoration: none;
+  }
+
+  .redeImg{
+    width: 20%;
+    padding: 2%;
+  }
+
+  .redeImg:hover{
+    opacity: 0.5;
+  }
+
+  .boxSobre2{
+    width: 54%;
+    margin-left: 1%;
+    text-align: center;
+  }
+
+  .textSobre, .calculoIdade{
+    text-align: center;
+    font-size: clamp(12px, 4vw, 16px);
+    font-weight: 600;
+    margin-bottom: 4%;
+  }
+
+  .textSobre2{
+    margin-top: 4%;
+    text-align: justify;
+    font-size: clamp(12px, 4vw, 16px);
+    font-weight: 600;
+    margin-bottom: 1%;
+  }
+
+  .imgConstrucao{
+    width: 30%;
+    margin-top: 4%;
+    margin-left: 40%;
+  }
+
+  /* HABILIDADES*/
+
+  .boxhab1{
+    border-bottom: 2px solid #24373b;
+    padding: 1%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -1%;
+  }
+
+  .titleHab{
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 600;
+    margin-bottom:2%;
+  }
+
+  .textHab1{
+    width: 100%;
+    text-align: center;
+    font-size: clamp(12px, 4vw, 16px);
+    font-weight: 600;
+  }
+
+  .titleHab2{
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+
+  .boxEtapaMaster{
+    margin: 3%;
+    width: 90%;
+  }
+
+  .imgConstrucao2{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+  }
+
+  .boxEtapa{
+    display: grid;
+    grid-template-columns: 35% 35% ;
+    gap: 32%;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxEtapa2{
+    display: grid;
+    grid-template-columns: 35% 35% ;
+    gap: 32%;
+    margin-top: 12%;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .todas{
+    width: max-content;
+    padding: 1.5% 4%;
+    border: 2px solid #24373b;
+    border-radius: 40px;
+    font-size: clamp(12px, 4vw, 16px);
+    box-shadow: 0 0.2rem 0.5rem orange;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #24373b;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .ling1, .ling2, .ling3, .ling4, .ling5{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    cursor: pointer;
+  }
+
+  .ling6, .ling7, .ling8, .ling8, .ling9, .ling10{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+    cursor: pointer;
+  }
+
+  .todas:active{
+    box-shadow: inset -4px 4px 0 #172224;
+    font-size: 1rem;
+  }
+
+  /*MENSAGEM*/
+
+  .spanMsg{
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ; /* Posso por em pixel ou em fração*/ 
+    gap: 15px;
+  }
+
+  .mensagem1, .mensagem2, .mensagem3, .mensagem4, .mensagem5, .mensagem6, .mensagem7, .mensagem8, .mensagem9, .mensagem10{
+    border: 4px solid #111;
+    background-color: #bbdec6;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 22%;
+    box-shadow: 0 0.2rem 0.5rem orange;
+    display: none;
+  }
+
+  .msgText{
+    font-size: clamp(8px, 4vw, 14px);
+    font-weight: 500;
+    color: #111;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  /* PROJETOS - GALERIA */
+
+  .boxGallery{
+    width: 96%;
+    height: 1200px;
+    padding: 2%;
+    margin-bottom: 80%;
+  }
+
+  .boxMaster{
+    padding-top: 4%;
+  }
+
+  hr{
+    border: 2px  #111 solid;
+    box-shadow: 0 0.2rem 0.5rem orange;
+  }
+
+  .imgGallery1{
+    width: 100%;
+    border: #172224 solid 3px;
+  }
+
+  .boxClick1, .boxClick2, .boxClick3, .boxClick4, .boxClick5, .boxClick6, .boxClick7, .boxClick8, .boxClick9, .boxClick10, .boxClick11,
+  .boxClick12{
+    width: 30%;
+    margin-left: 2%;
+    position: absolute;
+    border: 4px #314c53 solid;
+    box-shadow:  -4px 6px 0 #24373b;
+    border-radius: 2%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .boxClick1{
+    left: 0%;
+  }
+
+  .boxClick2{
+    left: 33%;
+  }
+
+  .boxClick3{
+    left: 66%;
+  }
+
+  .boxClick4{
+    left: 0%;
+    margin-top: 70%;
+  }
+
+  .boxClick5{
+    left: 33%;
+    margin-top: 70%;
+  }
+
+  .boxClick6{
+    left: 66%;
+    margin-top: 70%;
+  }
+
+  .boxClick7{
+    left: 0%;
+    margin-top: 140%;
+  }
+
+  .boxClick8{
+    left: 33%;
+    margin-top: 140%;
+  }
+
+  .boxClick9{
+    left: 66%;
+    margin-top: 140%;
+  }
+
+  .boxClick10{
+    left: 0%;
+    margin-top: 210%;
+  }
+
+  .boxClick11{
+    left: 33%;
+    margin-top: 210%;
+  }
+
+  .boxClick12{
+    left: 66%;
+    margin-top: 210%;
+  }
+
+  .imgClick{
+    width: 100%;
+    padding: 1%;
+    border-radius: 2%;
+  }
+
+  .textclick{
+    font-size: clamp(12px, 4vw, 14px);
+    font-weight: 500;
+    background-color: #fff;
+    border-top: 4px solid #314c53;
+    width: 100%;
+  }
+
+  .textApresentacao{
+    font-size: clamp(8px, 4vw, 14px);
+    font-weight: 500;
+    margin-top: 3%;
+    background-color: #fff;
+    border: 2px solid #222;
+  }
+
+  /* Slideshow container */
+  .slideshow-container1, .slideshow-container2, .slideshow-container3, .slideshow-container4, .slideshow-container5,
+  .slideshow-container6, .slideshow-container7, .slideshow-container8, .slideshow-container9, .slideshow-container10, 
+  .slideshow-container11, .slideshow-container12{
+    position: relative;
+    padding: 1%;
+    width: 100%;
+    height: 75%;
+    margin-right: 80%;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .slideshow-container1{
+    display: none;
+  }
+
+  .slideshow-container2{
+    display: none;
+  }
+
+  .slideshow-container3{
+    display: none;
+  }
+
+  .slideshow-container4{
+    display: none;
+  }
+
+  .slideshow-container5{
+    display: none;
+  }
+
+  .slideshow-container6{
+    display: none;
+  }
+
+  .slideshow-container7{
+    display: none;
+  }
+
+  .slideshow-container8{
+    display: none;
+  }
+
+  .slideshow-container9{
+    display: none;
+  }
+
+  .slideshow-container10{
+    display: none;
+  }
+
+  .slideshow-container11{
+    display: none;
+  }
+
+  .slideshow-container12{
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 1%;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, 
+  .mySlides12{
+    cursor: pointer;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  .lightBox{
+    display: none;
+    position: absolute;
+    width: 92%;
+    height: 108%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .apresentacaoImg{
+    display: block;
+    position: absolute;
+    margin: 1%;
+    margin-top: 30%;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+    background-color: #fff;
+  }
+
+  .close{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #172224;
+    color: #fff;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 600;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: 0%;
+    cursor: pointer;
+  }
+
+  .close:hover{
+    background-color: red;
+  }
+
+  /*RODAPE - CONTATOS*/
+
+  footer{
+    background-color: #7a979d;
+  }
+
+  .titleRodape{
+    padding: 2%;
+    font-size: clamp(12px, 4vw, 30px);
+    font-weight: 600;
+    text-align: center;
+    color: #111;
+  }
+
+  .txtRodape{
+    text-align: center;
+    text-indent: 2em;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 400;
+    color: #111;
+    padding-bottom: 1%;
+  }
+
+  .txtRodapeCont{
+    text-align: center;
+    text-indent: 2em;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 400;
+    color: #111;
+    padding-bottom: 1%;
+  }
+
+  .txtRodapeCont:hover{
+    opacity: 0.5;
+  }
+
+  .boxContato a{
+    text-decoration: none;
+  }
+
+  .boxRodapeImg{
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    text-decoration: none;
+  }
+
+  .boxRodapeImg:hover{
+    opacity: 0.8;
+  }
+
+  .boxRodapeImg a{
+    text-decoration: none;
+  }
+}
