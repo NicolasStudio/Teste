@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nicolas de Almeida Sousa"/>
     <meta name="description" content="Portifólio das capacidades/habilidades de Nivaldo Joaquim de Sousa"/>
+    <meta name="keywords" content="portifolio, construcao, pedreiro, serviços, obra">
     <link rel="icon" type="image/png" sizes="16x16"  href="Image/icons/favicon-16x16.png">
     <title>N. Joaquim - Portifólio</title>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="Styles/Styles.css">
@@ -30,6 +30,20 @@
                 <li class="opcoes"><a href="#sobre">Sobre</a></li>
                 <li class="opcoes"><a href="#home">Inicio</a></li>
                 <li class="nomeMenu"><a class="nomeMenu">N. Joaquim (Niniu)</a></li>
+            </ul>
+        </div>
+
+        <div class="boxBurguer">
+            <img src="Image/outros/burguer.png" alt="menu" class="burguer" onclick="abrirfechar()">
+        </div>
+
+        <div class="inicio__mobile">
+            <ul class="burguer__Link">
+                <li class="opcoes2"><a href="#home">Inicio</a></li>
+                <li class="opcoes2"><a href="#sobre">Sobre</a></li>
+                <li class="opcoes2"><a href="#habilidade">Habilidades</a></li>
+                <li class="opcoes2"><a href="#projetos">Projetos</a></li>
+                <li class="opcoes2"><a href="#contatos">Contatos</a></li>  
             </ul>
         </div>
 
@@ -56,9 +70,9 @@
                         <h1 class="titleInicio">Redes Sociais: </h1>
                         <div class="boxImgRede">
                             <p class="textSobre"> Aqui estão as minhas redes:</p>
-                            <a href=""> <img class="redeImg" src="Image/icons/facebook.png" alt="ERRO"> </a>
+                            <a href="https://www.facebook.com/nivaldo.sousa.79462"> <img class="redeImg" src="Image/icons/facebook.png" alt="ERRO"> </a>
                             <a href="https://api.whatsapp.com/send?phone=11968445033"> <img class="redeImg" src="Image/icons/whatsapp.png" alt="ERRO"> </a>
-                            <a href=""> <img class="redeImg" src="Image/icons/instagram.png" alt="ERRO"> </a>
+                            <a href="https://www.instagram.com/nivaldo.sousa.79462/"> <img class="redeImg" src="Image/icons/instagram.png" alt="ERRO"> </a>
                         </div>
                     </div>
 
@@ -71,8 +85,7 @@
                             Também trabalhei em incontavéis residências desde o alicerce até o acabamento, ou até mesmo serviços curtos, como: levantar
                             um muro, instalar uma porta e afins.</p>
                         <p class="textSobre2">Após a conclusão de um projeto, não há sensação melhor do que a alegria de ver que realizei o sonho
-                            de alguém. Aquele sonho que muitas vezes acaba ficando na gaveta. 
-                        </p>
+                            de alguém. Aquele sonho que muitas vezes acaba ficando na gaveta. </p>
 
                         <script>
                             var idade = window.localStorage.getItem('idade');
@@ -202,8 +215,7 @@
             <div class="boxGallery">
                 <center><h1 class="titleHab"> Galeria</h1></center>
                 <p class="textHab1">
-                Aqui estão alguns trabalhos que realizei, desde projetos extremamente demorados e complexos, à projetos simples.
-                </p><br>
+                Aqui estão alguns trabalhos que realizei, desde projetos extremamente demorados e complexos, à projetos simples. </p><br>
                 <hr>
 
                 <div class="boxMaster">
@@ -253,8 +265,8 @@
                     </div>
 
                     <div class="boxClick10">
-                        <img src="Image/outros/Em breve!.png" class="imgClick" >
-                        <center><p class="textclick"> Em breve!! <br> </p></center>
+                        <img src="Image/gallery10/1.png" class="imgClick" >
+                        <center><p class="textclick"> Parque 120 - Francisco Morato. <br> Azuleijos </p></center>
                     </div>
 
                     <div class="boxClick11">
@@ -1248,9 +1260,93 @@
                                 <div class="slideshow-container10" id="imgGallery10">
 
                                     <div class="mySlides10 fade">
-                                        <div class="numbertext">1 / 1</div>
-                                        <img src="Image/outros/Em breve!.png" class="imgGallery1">
-                                        <center><p class="textApresentacao"> Em breve!<br> </p></center>
+                                        <div class="numbertext">1 / 15</div>
+                                        <img src="Image/gallery10/1.png" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">2 / 15</div>
+                                        <img src="Image/gallery10/2.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">3 / 15</div>
+                                        <img src="Image/gallery10/3.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+                                    
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">4 / 15</div>
+                                        <img src="Image/gallery10/4.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+                                    
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">5 / 15</div>
+                                        <img src="Image/gallery10/5.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">6 / 15</div>
+                                        <img src="Image/gallery10/6.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">7 / 15</div>
+                                        <img src="Image/gallery10/7.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">8 / 15</div>
+                                        <img src="Image/gallery10/8.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">9 / 15</div>
+                                        <img src="Image/gallery10/9.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">10 / 15</div>
+                                        <img src="Image/gallery10/10.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">11 / 15</div>
+                                        <img src="Image/gallery10/11.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">12 / 15</div>
+                                        <img src="Image/gallery10/12.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">13 / 15</div>
+                                        <img src="Image/gallery10/13.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">14 / 15</div>
+                                        <img src="Image/gallery10/14.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
+                                    </div>
+
+                                    <div class="mySlides10 fade">
+                                        <div class="numbertext">15 / 15</div>
+                                        <img src="Image/gallery10/15.jpeg" class="imgGallery1">
+                                        <center><p class="textApresentacao"> Parque 120 - Francisco Morato.<br> Azuleijos </p></center>
                                     </div>
 
                                     <a class="prev" onclick="plusSlides10(-1)">❮</a>
@@ -1280,16 +1376,12 @@
                                     <a class="prev" onclick="plusSlides12(-1)">❮</a>
                                     <a class="next" onclick="plusSlides12(1)">❯</a>
                                 </div>
-
                         </div>
                     </div>
        
             </div>
-
         </section>
 </body>
-
-
 
 <section id="contatos">
     <footer class="rodape">
