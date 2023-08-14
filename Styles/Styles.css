@@ -63,6 +63,11 @@
     height: 30%;
   }
 
+  .boxImagemInicio:hover{
+    transition: 100ms;
+    box-shadow: 0 0.2rem 0.5rem orange;
+  }
+
   .imgInicio{
     width: 100%;
     padding-top: 2%;
@@ -216,6 +221,12 @@
     background-color: #24373b;
     text-align: center;
     white-space: nowrap;
+  }
+
+  .todas:hover{
+    transition: 100ms;
+    background-color: #314c53;
+    box-shadow: none;
   }
 
   .ling1, .ling2, .ling3, .ling4, .ling5{
@@ -592,10 +603,52 @@
 }
 
 
+.burguer, .inicio__mobile, .burguer__Link, .opcoes2{
+  display: none;
+}
+
+
 @media only screen and (max-width: 768px){
   @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 
+  .burguer {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    box-shadow: 0 0.2rem 0.5rem #333;
+    background-color: transparent;
+  }
 
+  .inicio__mobile{
+      width: 100%;
+      top: 10%;
+  }
+
+  .boxBurguer{
+      width: 100%;
+      top: 0%;
+      background-color: #b9d5d1;
+  }
+
+  .burguer__Link, .inicio__mobile.active, .opcoes2, .opcoes2 a{
+    color: #111;
+    text-decoration: none;
+    background-color: #314c53;
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 500;
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    top: 98%;
+    left: 10%;
+    text-align: center;
+    padding: 0.5rem;
+    color: #ffff;
+}
+
+
+  /* ***** */
 
   * {
     margin: 0;
