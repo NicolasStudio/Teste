@@ -36,6 +36,33 @@ menulink.forEach((link) => {
     link.addEventListener("click", scrollToSection);
 });
 
+// Menu Burguer
+
+const inicio = document.querySelector(".inicio");
+const inicioMobile = document.querySelector(".inicio__mobile");
+const button = document.querySelector(".burguer");
+
+button.addEventListener("click", function () {
+  inicioMobile.classList.toggle("active");
+});
+
+function abrirfechar(){
+
+  var display = document.querySelector('.burguer__Link').style.display;
+
+    if(display == 'block'){
+      document.querySelector('.burguer__Link').style.display = 'none';
+    
+    }else{
+      document.querySelector('.burguer__Link').style.display = 'block';
+
+    }
+}
+
+
+
+
+
 // Esconder as mensagens de habilidades
 function esconde1() {
     var display = document.querySelector('.mensagem1').style.display;
